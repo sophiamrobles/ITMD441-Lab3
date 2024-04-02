@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Tip Calculator</title>
-    <!-- link the js page here?-->
 </head>
 <body>
     <div class="tipCalc">
+        <h2>ITMD 451 - Lab 3 - Sophia Robles</h2>
+        <h1>Tip Calculator</h1>
+        <form id="calcTip">
+            <label for "billTotal">Bill Total:</label>
+            <input type="text" id="billTotal" required>
 
+            <label for "tipSlider>Tip: </label>
+            <input type="range" id="tipSlider" min="o" max="100">
+
+            <label for "tipPercentage">Tip Percentage:</label>
+            <input type="text" id="tipPercentage" disabled>
+
+            <label for "tipAmount">Tip Amount:</label>
+            <input type="text" id="tipAmount" disabled>
+
+            <label for "totalBillWTip">Total Bill with Tip:</label>
+            <input type="text" id="totalBillWTip" disabled>
+        </form>
     </div>
     <script src="script.js"></script>
 </body>
