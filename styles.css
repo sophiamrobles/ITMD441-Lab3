@@ -1,21 +1,26 @@
 body{
-
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
-form{
-
-}
-label{
-
-}
-input{
-/* types:text, range, disabled*/
+.tipCalc{
+    background-color: lightgray;
+    padding:20px;
+    border-radius: 5px;
+    /* width? */
 }
 h1{
-
+    font-weight: bold;
 }
-h2{
-
+/* h2{} & label{} ? */
+input[type="text"], input[type="range"] {
+/* types:text, range, disabled */
 }
+input[type="disabled"] {
+    /* types:text, range, disabled */
+    }
 #tipPercentage, #tipAmount #totalBill{
 
 }
