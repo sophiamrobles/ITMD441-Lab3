@@ -8,19 +8,24 @@ body{
 .tipCalc{
     background-color: lightgray;
     padding:20px;
-    border-radius: 5px;
-    /* width? */
+    border: 5px;
+    /* width? border-radius*/
 }
 h1{
     font-weight: bold;
 }
 /* h2{} & label{} ? */
 input[type="text"], input[type="range"] {
-/* types:text, range, disabled */
+    width: 100%;
+    padding: 10px;
+    border: 1px; 
+    border-color: black;
+
 }
 input[type="disabled"] {
-    /* types:text, range, disabled */
+    background-color: darkgray;
     }
 #tipPercentage, #tipAmount #totalBill{
 
 }
+/* limit input to 2 decimal places and add error message?*/
