@@ -9,6 +9,7 @@ body{
     background-color: lightgray;
     padding:20px;
     border: 5px;
+    border-radius: 10px;
     width: 400px;
     margin: 50px auto;
     /* width? border-radius*/
@@ -24,8 +25,8 @@ label{
 input {
     width: 100%;
     padding: 10px;
-    border: 1px; 
-    border-color: black;
+    border: 1px black; 
+    margin: 0 10px 10px 0;
 }
 input[type="range"] {
     display: block;
