@@ -8,8 +8,8 @@ document.getElementById('calcTip').addEventListener('input', function(){
     const billTotal = parseFloat(billTotalInput.value);
     const tipPercentage = parseFloat(tipSlider.value);
 
-    if (isNaN(billTotal)){
-        alert('Please enter a numerical value for bill total.');
+    if (isNaN(billTotal) || /\.\d{3,}/.test(this.value)){
+        alert('Please enter a numerical value with two decimal places for bill total.');
         return;
     }
 

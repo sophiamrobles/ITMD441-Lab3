@@ -9,13 +9,14 @@ body{
     background-color: lightgray;
     padding:20px;
     border: 5px;
-    border-radius: 10px;
     width: 400px;
-    margin: 50px auto;
-    /* width? border-radius*/
+    margin: 50px 50px 50px auto;
+}
+h1,h2{
+    text-align: center;
 }
 h1{
-    font-weight: bold;
+    font-weight: bolder;
 }
 /* h2{}? */ 
 label{
