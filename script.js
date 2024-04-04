@@ -1,11 +1,11 @@
-const billTotal = document.getElementById('billTotal');
+const billTotalInput = document.getElementById('billTotal');
 const tipSlider = document.getElementById('tipSlider');
-const tipPercentage = document.getElementById('tipPercentage');
-const tipAmount = document.getElementById('tipAmount');
-const totalBillWTip = document.getElementById('totalBillWTip');
+const tipPercentageInput = document.getElementById('tipPercentage');
+const tipAmountInput = document.getElementById('tipAmount');
+const totalBillWTipInput = document.getElementById('totalBillWTip');
 
 document.getElementById('calcTip').addEventListener('input', function(){
-    const billTotal = parseFloat(billTotal.value);
+    const billTotal = parseFloat(billTotalInput.value);
     const tipPercentage = parseFloat(tipSlider.value);
 
     if (isNaN(billTotal)){
@@ -13,9 +13,9 @@ document.getElementById('calcTip').addEventListener('input', function(){
         return;
     }
 
-    const tipAmount = (billTotal*tipPercentage/100);
-    const totalBillWTip = billTotal + tipAmount;
-    tipPercentage.value = tipPercentage + "%";
-    tipAmount.value = tipAmount.toFixed(2);
-    totalBillWTip = totalBillWTip.toFixed(2);
+    const calculatedTipAmount = (billTotal * tipPercentage / 100);
+    const calculatedTotalBillWTip = billTotal + calculatedTipAmount;
+    tipPercentageInput.value = tipPercentage + "%";
+    tipAmountInput.value = calculatedTipAmount.toFixed(2);
+    totalBillWTipInput.value = calculatedTotalBillWTip.toFixed(2);
 });
