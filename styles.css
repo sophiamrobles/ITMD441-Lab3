@@ -20,7 +20,9 @@ input[type="text"], input[type="range"] {
     padding: 10px;
     border: 1px; 
     border-color: black;
-
+}
+input[type="range"] {
+    display: block;
 }
 input[type="disabled"] {
     background-color: darkgray;
