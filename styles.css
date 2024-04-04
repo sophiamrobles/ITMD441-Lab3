@@ -15,7 +15,7 @@ h1{
     font-weight: bold;
 }
 /* h2{} & label{} ? */
-input[type="text"], input[type="range"] {
+input {
     width: 100%;
     padding: 10px;
     border: 1px; 
