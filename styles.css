@@ -25,7 +25,6 @@ input[type="text"], input[type="range"] {
 input[type="disabled"] {
     background-color: darkgray;
     }
-#tipPercentage, #tipAmount #totalBill{
-
+/*#tipPercentage, #tipAmount #totalBill{
 }
-/* limit input to 2 decimal places and add error message?*/
+ limit input to 2 decimal places and add error message?*/
