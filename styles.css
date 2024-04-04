@@ -3,8 +3,8 @@ body{
     background-color: white;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
+
 .tipCalc{
     background-color: lightgray;
     padding:20px;
@@ -12,29 +12,31 @@ body{
     width: 400px;
     margin: 50px 50px 50px auto;
 }
+
 h1,h2{
     text-align: center;
 }
+
 h1{
     font-weight: bolder;
 }
-/* h2{}? */ 
+
 label{
     display: block;
     margin-bottom: 10px;
 } 
+
 input {
     width: 100%;
     padding: 10px;
     border: 1px black; 
     margin: 0 10px 10px 0;
 }
+
 input[type="range"] {
     display: block;
 }
+
 input[type="disabled"] {
     background-color: darkgray;
     }
-/*#tipPercentage, #tipAmount #totalBill{
-}
- limit input to 2 decimal places and add error message?*/
